@@ -1,0 +1,35 @@
+.flex-center {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.canvasCam {
+  border-radius: 2%;
+  margin: 2em;
+  border: 2px solid red;
+}
+.banner {
+  color: white;
+  display: flex;
+  margin: 10px;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
