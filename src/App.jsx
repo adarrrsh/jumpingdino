@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Pose } from "@mediapipe/pose";
 import { Camera } from "@mediapipe/camera_utils";
 import ChromeDinoGame from "react-chrome-dino";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const videoRef = useRef(null);
